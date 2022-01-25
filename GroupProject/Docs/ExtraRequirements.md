@@ -1,0 +1,6 @@
+- The system runs on Android 9.0 (Pie) with the API level 28.
+- 100% of happy path flows are functional and do not run into unexpected
+errors that cause the system to crash. 
+- Your application state should persist between runs. You can accomplish this by leveraging Android SQLite (recommended) or any other technology with which you are comfortable (including plain files). Either way, please test your application in a clean-checkout state and with a new or cleared AVD, so as to be sure that it does not need to be run in a special environment. Please note that simply redeploying within Android Studio to an existing AVD will not clear any database.
+- In addition, to help with cases in which we may have problems compiling your app, make sure to add an APK file for your app in directory <dir>/APK. Note that we intend to grade your app as compiled from the provided code; this APK is required in case of problems and does not replace having complete, compilable, and runnable code in your submitted commit.
+- Based on Piazza post from TA we assumed edit/remove job offer functionality is optional and didn't implemented it. [Source from Piazza](https://piazza.com/class/koqiurjf4ss47e?cid=461)
